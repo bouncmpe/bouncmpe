@@ -1,6 +1,7 @@
 ---
 name: News Request
 description: Make a news request
+about: Use this template for making news request
 title: "[NEWS REQUEST]: "
 labels: ["news", "web"]
 body:
