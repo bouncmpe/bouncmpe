@@ -7,26 +7,28 @@ body:
     id: news-title-en
     attributes:
       label: Title in English
+      placeholder: Please input the article title in English
     validations:
       required: true
   - type: textarea
     id: news-body-en
     attributes:
       label: Text in English
-      value: "Please input the article body in English"
+      placeholder: "Please input the article body in English"
     validations:
       required: true
   - type: input
     id: news-title-tr
     attributes:
       label: Title in Turkish
+      placeholder: Please input the article title in Turkish
     validations:
       required: true
   - type: textarea
     id: news-body-tr
     attributes:
       label: Text in Turkish
-      value: "Please input the article body in Turkish"
+      placeholder: "Please input the article body in Turkish"
     validations:
       required: true
   - type: textarea
