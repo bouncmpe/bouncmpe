@@ -1,0 +1,21 @@
+name: Senior Project Offer
+description: Create a senior project offer
+title: "[OFFER]: "
+labels: ["senior-project", "492"]
+assignees: ["doganulus"]
+body: 
+  - type: input
+    id: project-title
+    attributes:
+      label: Title
+      placeholder: Please provide the project title here
+    validations:
+      required: true
+  - type: textarea
+    id: project-description
+    attributes:
+      label: Description
+      placeholder: Please describe the project here
+    validations:
+      required: true
+
